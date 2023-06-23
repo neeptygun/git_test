@@ -1,10 +1,55 @@
-html{
-    min-height: 100vh;
-    background: linear-gradient(180deg, rgb(182, 159, 97), rgb(128, 89, 24));
+.headtop{
+    background-color: brown;
+    padding: 20px;
+  }
+  #title{
+    position: relative;
+    font-family: "Norse";
+    text-transform: uppercase;
+    font-size: 5vw;
+    text-align: center;
+    color:rgb(236, 218, 139);
+  }
+  .middle{
+    background-color: crimson;
+  }
+  #linklist{
+    text-align: center;
+  }
+  #linklistsangria{
+    font-size: 30px;
+    color: aqua;
+  }
+  #linklistjollofrice{
+    font-size: 30px;
+    color: chartreuse;
+  }
+  #linklistfriedbeeftacos{
+    font-size: 30px;
+    color: yellow;
+  }
+nav{
+    margin-bottom: 10px;
 }
-head{
-    #title{
-        text-align: center;
-        position: relative;
-    }
+.container{
+    background-color: teal;
+    border: 3px solid coral;
+    padding: 20px;
+    gap: 8px;
+    display: flex;
+}
+.signin{
+    background-color: thistle;
+    padding: 15px;
+    border: 5px solid aqua;
+}
+.home{
+    background-color: thistle;
+    padding: 15px;
+    border: 5px solid aqua; 
+}
+.about{
+    background-color: thistle;
+    padding: 15px;
+    border: 5px solid aqua; 
 }
