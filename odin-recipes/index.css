@@ -1,6 +1,11 @@
+body{
+  background: linear-gradient(180deg, #FFEEEE, #DDEFBB);
+  height: 1080px;
+}
+
 .headtop{
     background-color: brown;
-    height: 720px;
+    height: 850px;
     border: 3px solid coral;
   }
   #title{
@@ -15,12 +20,19 @@
     border: 5px solid salmon;
     width: 500px;
   }
+  #detail{
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: "Norse";
+    text-align: center;
+    color: burlywood;
+  }
   .middle{
     background-color: crimson;
     display: flex;
     padding: 20px;
     border: 3px solid sandybrown;
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .middle> div{
     flex: 1;
@@ -56,29 +68,29 @@
     color: yellow;
   }
 nav{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .container{
     background-color: teal;
     border: 3px solid coral;
-    padding: 20px;
+    padding: 10px;
     gap: 8px;
     display:flex;
-    flex-direction: row-reverse;
+    justify-content: end;
 }
 .signin{
     background-color: thistle;
-    padding: 15px;
+    padding: 10px;
     border: 2px solid aqua;
 }
 .home{
     background-color: thistle;
-    padding: 15px;
+    padding: 10px;
     border: 2px solid aqua; 
 }
 .about{
     background-color: thistle;
-    padding: 15px;
+    padding: 10px;
     border: 2px solid aqua;
     
 }
