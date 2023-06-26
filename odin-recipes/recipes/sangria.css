@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(180deg, #FFEEEE, #DDEFBB);
+    height: 1080px;
+    width: 100%;
+    margin: 0;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  .navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
