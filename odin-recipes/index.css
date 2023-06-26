@@ -1,6 +1,7 @@
 .headtop{
     background-color: brown;
-    padding: 20px;
+    height: 720px;
+    border: 3px solid coral;
   }
   #title{
     position: relative;
@@ -10,22 +11,48 @@
     text-align: center;
     color:rgb(236, 218, 139);
   }
+  #picture1{
+    border: 5px solid salmon;
+    width: 500px;
+  }
   .middle{
     background-color: crimson;
+    display: flex;
+    padding: 20px;
+    border: 3px solid sandybrown;
+    margin-top: 10px;
   }
-  #linklist{
-    text-align: center;
+  .middle> div{
+    flex: 1;
   }
   #linklistsangria{
     font-size: 30px;
+    padding: 20px;
+    background-color: chocolate;
+    border: 3px solid floralwhite;
+    text-align: center;
+  }
+  #linklistsangria> #text{
     color: aqua;
   }
   #linklistjollofrice{
     font-size: 30px;
+    padding: 20px;
+    background-color: chocolate;
+    border: 3px solid floralwhite;
+    text-align: center;
+  }
+  #linklistjollofrice> #text{
     color: chartreuse;
   }
   #linklistfriedbeeftacos{
     font-size: 30px;
+    padding: 20px;
+    background-color: chocolate;
+    border: 3px solid floralwhite;
+    text-align: center;
+  }
+  #linklistfriedbeeftacos> #text{
     color: yellow;
   }
 nav{
